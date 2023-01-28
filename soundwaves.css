@@ -1,0 +1,29 @@
+#bars {
+    position: absolute;
+    bottom: 200px;
+    height: 14px;
+    width: 180px;
+    margin: 0 0 0 290px;
+    transform:scale(2) translateX(-50%);
+  }
+  
+  .bar {
+    position: absolute;
+    bottom: 0px;
+    height: 3px;
+    width: 1px;
+    background: #12796f;  
+    animation: sound 0ms -800ms linear infinite alternate;
+    transform: translateY(50%);
+  }
+  
+  @keyframes sound {
+      0% {
+         opacity: .35;
+          height: 1px; 
+      }
+      100% {
+          opacity: 1;       
+          height: 28px;        
+      }
+  }
