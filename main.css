@@ -19,14 +19,18 @@ body {
 .top p{
     font-size: 20px;
 }
+.buttons{
+    margin-top: 200px;
+}
+.buttons a{
+    text-decoration: none;
+}
 .btnWrapper{
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100px;
     width: 100%;
-    position: absolute;
-    bottom: 0;
 }
 .icon{
     display: flex;
