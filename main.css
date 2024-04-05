@@ -43,12 +43,12 @@ body {
     border-radius: 50%;
     padding: 10px;
     z-index: 999;
-    color: #12796f;
+    color: #0FEF79;
 }
 
 .btnWrapper button{
     padding: 10px 20px;
-    background-color: #12796f38;
+    background-color: #0FEF7938;
     color: white;
     font-size: 20px;
     height: 60px;
@@ -60,7 +60,7 @@ body {
 }
 .btn{
     padding: 10px 20px;
-    background-color: #12796f38;
+    background-color: #0FEF7938;
     color: white;
     font-size: 20px;
     border: none;
@@ -94,7 +94,7 @@ footer{
     padding: 20px;
 }
 footer i{
-    background-color: #12796f38;
+    background-color: #0FEF7938;
     padding: 20px;
     border-radius: 50px;
     height: 50px;
