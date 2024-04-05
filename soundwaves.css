@@ -12,7 +12,7 @@
     bottom: 0px;
     height: 3px;
     width: 1px;
-    background: #12796f;  
+    background: #0FEF79;  
     animation: sound 0ms -800ms linear infinite alternate;
     transform: translateY(50%);
   }
