@@ -4,8 +4,8 @@
     box-sizing: border-box;
 }
 body {
-    background: #1c1c1c;
-    color: white;
+    background: #ffffff;
+    color: #2d2d2d;
     font-family: Tahoma, Geneva, Verdana, sans-serif;
   }
   
@@ -13,7 +13,7 @@ body {
     width: 100%;
     margin: auto;
     padding: 20px;
-    color: white;
+    color: #2d2d2d;
 }
 .top h1{
     font-size: 40px;
@@ -38,7 +38,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: white;
+    background-color: #2d2d2d;
     width: 60px;
     height: 60px;
     border: none;
@@ -50,8 +50,8 @@ body {
 
 .btnWrapper button{
     padding: 10px 20px;
-    background-color: #0FEF7938;
-    color: white;
+    background-color: #0FEF79;
+    color: #2d2d2d;
     font-size: 20px;
     height: 60px;
     width: 200px;
@@ -62,8 +62,8 @@ body {
 }
 .btn{
     padding: 10px 20px;
-    background-color: #0FEF7938;
-    color: white;
+    background-color: #0FEF79;
+    color: #2d2d2d;
     font-size: 20px;
     border: none;
     margin-left: -15px;
@@ -75,7 +75,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: white;
+    color: #2d2d2d;
     padding: 20px;
 }
 header i{
@@ -83,12 +83,13 @@ header i{
     border-radius: 50px;
     height: 50px;
     width: 50px;
-    color: white;
+    color: #2d2d2d;
 }
 
 .brand-logo{
-    width: 100px;
-    height: 100px;
+    width: 100%;
+    height: 10vh;
+    object-fit: cover;
 }
 
 footer{
@@ -102,16 +103,16 @@ footer{
     padding: 20px;
 }
 footer i{
-    background-color: #0FEF7938;
+    background-color: #0FEF79;
     padding: 20px;
     border-radius: 50px;
     height: 50px;
     width: 50px;
-    color: white;
+    color: #2d2d2d;
 }
 main{
     align-items: center;
-    color:aliceblue;
+    color:#2d2d2d;
     font-size:30px;
     padding: 20px;
 }

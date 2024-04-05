@@ -8,8 +8,8 @@
     border: none;
     padding: 10px 20px;
     margin: 30px 0;
-    background-color:  #0FEF7938;
-    color: white;
+    background-color:  #0FEF79;
+    color: #2d2d2d;
     font-size: 20px;
 }
 select{
@@ -19,15 +19,15 @@ select{
     border: none;
     padding: 10px 20px;
     margin: 30px 0;
-    background-color:  #0FEF7938;
-    color: white;
+    background-color:  #0FEF79;
+    color: #2d2d2d;
     font-size: 20px;
 }
 .btn{
     padding: 10px 20px;
-    background-color:  #0FEF7938;
+    background-color:  #0FEF79;
     border: none;
-    color: white;
+    color: #2d2d2d;
     font-size: 20px;
     cursor: pointer;
     border-radius: 5px;
@@ -41,7 +41,7 @@ input[type="range"] {
     height: 10px;
     background: rgba(255, 255, 255, 0.6);
     border-radius: 5px;
-    background-image: linear-gradient(  #0FEF79,  #0FEF79);
+    background-image: linear-gradient(  #0FEF79,  #1253d6);
     background-size: 100%;
     background-repeat: no-repeat;
   } 
