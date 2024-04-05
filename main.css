@@ -116,3 +116,7 @@ main > .output{
 .custom-bottom-value{
     bottom: 70px;
 }
+
+#toggleTextBtn{
+    text-decoration: none;
+}
