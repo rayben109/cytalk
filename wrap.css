@@ -26,7 +26,7 @@
   }
   
   ul li:nth-child(1) {
-    border: 1px solid #189c90;
+    border: 1px solid #0FEF79;
     width: 20px;
     height: 20px;
     z-index: -1;
@@ -52,7 +52,7 @@
   }
   
   ul li:nth-child(3) {
-    border: 1px solid #158a80;
+    border: 1px solid #0FEF79;
     width: 80px;
     height: 80px;
     z-index: -3;
@@ -78,7 +78,7 @@
   }
   
   ul li:nth-child(5) {
-    border: 1px solid #12796f;
+    border: 1px solid #0FEF79;
     width: 140px;
     height: 140px;
     z-index: -5;
