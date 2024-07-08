@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body {
-    background: #ffffff;
+    background: #1a1a1a;
     color: #2d2d2d;
     font-family: Tahoma, Geneva, Verdana, sans-serif;
   }
@@ -18,20 +18,28 @@ body {
 .top h1{
     font-size: 40px;
 }
-.top p{
+.intro p{
     font-size: 20px;
 }
-.buttons{
+.intro{
+    background-image: linear-gradient( #0fef789d,#adadad, #adadad, #adadad, #adadad, #adadad, #adadad);
     margin-top: 200px;
+    border-top-left-radius: 150px;
+    border-top-right-radius: 150px;
+    padding: 90px 30px 0 25px;
+    height: 115vw;
+}
+span{
+    font-weight: bold;
+}
+.buttons{
+    margin-top: 20px;
 }
 .buttons a{
     text-decoration: none;
 }
 .btnWrapper{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100px;
+    height: 20vw;
     width: 100%;
 }
 .icon{
@@ -53,12 +61,12 @@ body {
     background-color: #0FEF79;
     color: #2d2d2d;
     font-size: 20px;
+    font-weight: bolder;
     height: 60px;
     width: 200px;
     border: none;
     margin-left: -22px;
-    border-top-right-radius:  50px;
-    border-bottom-right-radius:  50px;
+    border-radius:  50px;
 }
 .btn{
     padding: 10px 20px;
@@ -117,8 +125,9 @@ main{
     padding: 20px;
 }
 main > .output{
-    font-size: 16px;
+    font-size: 20px;
     display: inline-block;
+    color: #0FEF79;
 }
 
 
@@ -128,4 +137,7 @@ main > .output{
 
 #toggleTextBtn{
     text-decoration: none;
+}
+h4{
+    color: #0FEF79;
 }
